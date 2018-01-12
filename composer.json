@@ -1,0 +1,12 @@
+{
+  "name": "routing/repo",
+  "authors":[
+    {
+      "name":"Jarod Bose",
+      "email":"jbose@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core":"dev-master"
+  }
+}
