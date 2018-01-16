@@ -34,5 +34,13 @@ $f3->route('GET /page1/subpage-a', function()
 }
 );
 
+//define a Toe Ring page
+$f3->route('GET /jewelry/rings/toe-rings', function()
+{
+    $template = new Template();
+    echo $template->render('views/toe-rings.html');
+}
+);
+
 //Run fat free
 $f3->run();
